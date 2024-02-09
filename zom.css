@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.banner{
+    height:600px;
+    width:100%;
+    background-image: url('image.webp');
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.alpha li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.alpha li{
+    margin-right:30px;
+}
+.header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-logo{
+    text-align: center;
+    padding-top: 210px;
+    width: 100%;
+}
+.banner-logo img{
+    width: 250px;
+}
+.banner-line{
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+    width: 100%;
+}
+.banner-line p{
+    text-align: center;
+}
+.popular{
+    text-align: center;
+}
+.popular span img{
+    height: 30px;
+}
+.popular h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.popular p{
+    color: rgb(157, 154, 154);
+    font-size: 20px;
+    width: 850px;
+    margin: 0 auto;
+    line-height: 27px;
+}
+.state-contain{
+    margin-top: 80px;
+    width: 100%;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.city-contain{
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+    border: 1px solid rgb(223, 220, 220);
+    padding: 10px 18px;
+    width: 26%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.city-contain h3{
+    padding-right: 20px;
+}
+.city-contain a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.countries h2{
+    font-size: 40px;
+    font-weight:400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.country-content{
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+    border: 1px solid rgb(223, 220, 220);
+    padding: 10px;
+    width: 24%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.country{
+    display: flex;
+    align-items: center;
+}
+.country img{
+    height: 30px;
+    padding-right: 10px;
+}
+.country h3{
+    font-size: 20px;
+}
+.country-content i{
+    font-size: 25px;
+}
+.country-content a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer{
+    background-color: rgba(245, 240, 240, 0.621);
+}
+.zomato{
+    display: flex;
+    justify-content: space-between;
+}
+.zomato-logo img{
+    width: 120px;
+}
+.india-eng {
+    display: flex;
+    justify-content: space-between;
+}
+.india-eng a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ind{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 2px 8px;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.ind img{
+    height: 20px;
+}
+.english{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 2px 8px;
+    justify-content: space-between;
+    border-radius: 5px; 
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.about-zom{
+    margin-bottom: 40px;
+}
+.about-zom h5{
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.about-zom li{
+    line-height: 25px;
+    font-size: 15px;
+}
+.items a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.662);
+}
+.s-link{
+    margin-bottom: 20px;
+}
+.s-link ul{
+    display: flex;
+}
+.s-link li{
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.s-link a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+}
+.store a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+}
+.store img{
+    height: 40px;
+}
+
+.app{
+    margin-bottom: 10px;
+}
